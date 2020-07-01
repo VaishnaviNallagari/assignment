@@ -36,3 +36,239 @@
     transform: rotate(360deg);
   }
 }
+.top-banner{
+  background-color:  #CC0000  ;
+  width: 100%; height: 115px; padding: 20px ;
+  width: 100%; 
+  height: 58px; 
+  padding: 20px; 
+}
+
+.login-form{
+  background-color: #CC0000;
+  padding-left: 77px;
+  
+}
+.loginbutton {
+  align-items: right;
+}
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+    max-width: 745px important;
+  }
+}
+@media (min-width: 1200px) {
+  .Container{
+    max-width: 100% important;
+  }
+}
+.sidenavbar{
+  width: 30%;
+}
+.userimage{
+  width: 100px;
+  height: 100px;
+}
+.userimage1{
+  width: 192px;
+  height: 120px;
+}
+.borderbottom {
+  border-bottom: 2px solid #878d87 !important;
+}
+.box{
+padding: 0px 30px 30px 30px;
+background-color: white;
+}
+.about {
+  border-bottom: 2px solid #878d87;
+  font-size:32px;
+  font-family: Microsoft JhengHei;
+  height: 63px;
+}
+.floatl{
+  float:left;
+}
+.floatr{
+  float:right;
+}
+.experimentsHolder{
+  margin-right: 50px;
+  margin-top:20px;
+}
+.sidelist{
+  font-family: Microsoft JhengHei, arial;
+font-weight: bold;
+font-size: 28px;
+color:#CC0000;
+}
+.sidewidth{
+  width: 23%;
+}
+@media (min-width: 1283px) {
+  .dash {
+   width:20%;
+   margin-top: 2%;
+  }
+}
+
+
+.dynamictext {
+  width: 300px; 
+  height: 300px;
+}
+.login-box {
+  background-color: #CC0000 ;
+  width: 100%;
+  height: 67px;
+  padding: 20px 
+  
+}
+.js-framework {
+  height: 39px;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: 20px;
+  background-color: #CC0000;
+}
+.heading{
+  height:86px;
+  font-size:49px;
+  background-color: #CC0000;  
+  padding-left: 40px;
+}
+.col {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+container {
+  width: 100% !important;
+}
+
+a{
+  color:#CC0000
+}
+
+.Teamimage{
+  height:40px; 
+  width:40px; 
+  border-radius:50%;
+}
+.animation{
+  transform: translate(0px, 40%);
+  height: 150px;
+  width:150px;
+  background-color: red;
+}
+.dashboardformwidth{
+  width:100%;
+  padding-top:20px;
+}
+.background{
+  background-color:white;
+  padding-top:30px;
+}
+.table {
+  border-collapse: collapse;
+  margin-bottom: 2rem !important;
+}
+table, td, th {
+  border: 1px solid black;
+}
+th {
+  background-color: #878d87;
+  color: white;
+  margin-bottom: 2rem;
+}
+h4.accountBalance{
+ height: 2.5 rem !important;
+  color:#CC0000;
+  line-height:2.5rem !important;
+  margin-top: 10px;
+}
+.buttonproperties{
+  background-color: #169BD5; color: #FFF; padding: 5px 10px;
+}
+.dummyimage{
+  font-family: Microsoft JhengHei; font-size: 18px;
+  font-weight: bold;
+}
+.figure{
+  padding-right: 20px !important;
+}
+.nav{
+  padding-top:10px !important;
+}
+
+.list p>.active {
+  font-family: Microsoft JhengHei, arial;
+  font-weight: bold;
+  font-size: 28px;
+  color:#666666 ;
+}
+.navbar p{
+  width:52%;
+
+}
+.loginError{
+  height:40px;
+  padding:40px 40px;
+}
+.loginErrordiv{
+  height:40px; width:60%; 
+  background-color:'#FFFFFF';
+  padding:40px 40px;
+}
+.userID_label{
+  font-family: Arial; font-size: 18px; color: #FFF; 
+  padding-right: 40px;
+}
+.password_label{
+  font-family: Arial; font-size: 18px; color: #FFF; padding-right: 24px;
+}
+.userid_field{
+  padding:5px;
+  margin-bottom: 40px;
+  height: 46px;
+  width: 277px;
+}
+.password_field{
+  padding:5px;
+  margin-bottom: 40px;
+  height: 46px;
+  width: 277px;
+}
+.loginbutton{
+  background-color: #CC9900; border-color: #775900; color: #FFF;
+  width:118px;
+  height:46px;
+    font-size: 22px;
+    border-radius: 13px;
+    float:right;
+}
+.formstyles{
+  padding-top:20px;
+}
+.teampage{
+  font-size:20px;
+}
+.list.hover{
+  text-decoration: none !important;
+}
+.list{
+  
+  padding-top: 20px;
+  border-bottom: 2px solid #b9b4b4;
+}
+.backgroundbox{
+  padding-top:30px;
+}
+.username{
+  padding-top:43px;
+  font-size: 18px;
+  color:#CC0000 ;
+}
+.logindate{
+  font-size: 14px; font-style: italic ;
+}

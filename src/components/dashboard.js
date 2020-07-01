@@ -13,13 +13,8 @@ class dashboard extends Component {
                     <Row> 
                         <Col className="background" lg={3}><Sidelist /></Col>
                         <Col className="backgroundbox" lg={9}><Dashboarddetails /></Col>
-                    </Row>
-                    
-                    
-                </Container>
-                
-                
-                
+                    </Row>  
+                </Container>       
             </div>
         )
     }

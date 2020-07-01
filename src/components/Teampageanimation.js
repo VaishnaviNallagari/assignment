@@ -12,7 +12,6 @@ class Colorchange extends Component {
         }
       }
     
-    
       boxClick = (e) => {
         this.setState({
           border: "1px solid #878d87",
@@ -31,8 +30,7 @@ class Colorchange extends Component {
                     <article className='experimentsHolder'>
                     <div className="boxClickCss" 
                     style={{ border:this.state.border,backgroundColor: this.state.bgColor, height: this.state.height, width: this.state.width, 
-   transform:this.state.transform}}
-                    onClick={this.boxClick}></div>
+                      transform:this.state.transform}} onClick={this.boxClick}></div>
                     </article>
                 </div>
             </div>

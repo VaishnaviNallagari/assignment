@@ -28,7 +28,7 @@ class Dashboarddetails extends Component {
                         </Col>
                     </Row>
                     <Row className="borderbottom">
-                  <h4 className="accountBalance">Account Balance: {this.state.accountBalance}</h4>
+                        <h4 className="accountBalance">Account Balance: {this.state.accountBalance}</h4>
                         <Table>
                             <thead>
                                 <tr><th>Date</th><th>Description</th> <th>Amount</th></tr>
@@ -40,8 +40,7 @@ class Dashboarddetails extends Component {
                         </Table>
                     </Row>
                     <Row><Dashboardform /></Row>
-                </Container>
-                
+                </Container>  
             </div>
         )
     }

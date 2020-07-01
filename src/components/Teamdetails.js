@@ -41,13 +41,9 @@ class Teamdetails extends Component {
                             </Col>
                             <Col lg={5}><Teampageanimation/></Col>
                         </Row>
-                        
-                
-                </Container>
-                       
-                    
+                </Container> 
                 </div>
-    
+
             );
         }
         

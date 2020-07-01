@@ -6,8 +6,7 @@ import Colorchange from './Colorchange'
 
 export default class Aboutdetails extends Component {
     render() {
-        return (
-            
+        return (       
         <div className="box">
             <Container>
                 <Row className="about">About iJavaScrip</Row>

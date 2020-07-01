@@ -47,7 +47,7 @@ class LoginForm extends Component {
                     {isLoginPeanding && <div>Please Wait...</div>}
                     <div style={{padding:60}}>   
                     <div style={{height:40,width:300}}>{isLoginError && <div style={{height:'50px',width:'57vw',backgroundColor:'#c57567',paddingLeft:40,paddingTop:12 }}>{isLoginError.message}</div> }</div> 
-                   <form onSubmit={this.onSubmit} style={{padding:30}}>
+                <form onSubmit={this.onSubmit} style={{padding:30}}>
                    <label className="userID_label">User ID</label> 
                    <input className="userid_field" type="email" name="email" onChange={e => this.setState({email: e.target.value})} placeholder="Enter User ID"/> <br />
                    <label className="password_label ">Password</label> 
@@ -56,7 +56,6 @@ class LoginForm extends Component {
                   
                 </form>
                     </div>
-       
             </div>
         )
     }

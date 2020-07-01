@@ -10,7 +10,6 @@ class dashboardform extends React.Component{
       twowaybind: ""
     }
     this.handleevent = this.handleevent.bind(this)
-    
   }
   handleevent(event){
     const{name, value, checked, type} = event.target

@@ -10,8 +10,7 @@ class Dashboarddetails extends Component {
                 UserID: "User ID",
                 lastLogin: "07/june/2020",
                 accountBalance: "$3000"
-            }
-        
+            }    
     }
     render() {
         return (
